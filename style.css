@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-top{
+    display: flex;
+    flex-direction: column;
+    background: #1F2937;
+    min-height: 1000px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin-right: 20px;
+}
+
+a{
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+}
+a:hover{
+    background-color: white;
+    color: blue;
+    padding: 5px 10px 5px 10px;
+    transition: 200ms linear;
+    border-radius: 15px;
+}
+
+.title{
+    font-weight: 900px;
+    font-size: 40px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a,.title,.text{
+    color: white;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text-container{
+    font-family: source code pro;
+    margin: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    max-width: 540px;
+}
+
+.top-b{
+    font-weight: 900;
+    color: white;
+    background-color: rgb(78, 78, 236);
+    border: 0;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    align-self: flex-start;
+}
+
+.car{
+    object-fit: cover;
+}
