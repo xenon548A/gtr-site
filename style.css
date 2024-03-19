@@ -36,12 +36,13 @@ a:hover{
     color: blue;
     padding: 5px 10px 5px 10px;
     transition: 200ms linear;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .title{
-    font-weight: 900px;
+    font-weight: bolder;
     font-size: 40px;
+    margin-right: 20px
 }
 
 a{
@@ -66,7 +67,7 @@ a,.title,.text{
     align-items: center;
 }
 
-p{
+.text{
     max-width: 540px;
 }
 
@@ -80,6 +81,118 @@ p{
     align-self: flex-start;
 }
 
-.car{
-    object-fit: cover;
+.section-mid{
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card{
+    border: 2px solid rgb(33, 66, 255);
+    padding: 0px;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.engine{
+    width: 80px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:80px
+}
+
+.heading{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: source code pro;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.image-1,.image-2,.image-3,.image-4{
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.card:nth-child(1) .image-1{
+    background-image: url(/images/engine.jpg);
+    border: none;
+}
+
+.card:nth-child(1) .image-2{
+    background-image: url(/images/trans.jpg);
+    border: none;
+}
+
+.card:nth-child(1) .image-3{
+    background-image: url(/images/horse.jpg);
+    border: none;
+}
+
+.card:nth-child(1) .image-4{
+    background-image: url(/images/skyline.jpg);
+    border: none;
+}
+
+.card-container p{
+    max-width: 250px;
+    text-align: justify;
+}
+
+.low-section{
+    background: #1F2937;
+    color: white;
+    min-height: 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    gap: 100px;
+    align-items: center;
+    margin: 0;
+}
+
+.img-paul{
+    border: 1px solid white;
+    height: 450px;
+    width: 600px;
+    background-size: cover;
+    background-image: url(/images/paul-car.jpg);
+}
+
+.para-paul{
+    max-width: 580px;
+    text-align: center;
+}
+
+.card-low{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    border: 1px solid white;
+}
+
+.img-paul{
+    background-image: url(/images/paul-car.jpg);
+
+}
+
+.heading-low,.card-low p{
+    font-family: source code pro;
+}
+
+.heading-low{
+    font-weight: bolder;
+    font-size: 50px;
 }
